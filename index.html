@@ -1,53 +1,202 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Joshua Arcega - About Me</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <link rel="stylesheet" href="assets/css/style.css">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Joshua Arcega - About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    </head>
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Font Awesome Icons link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
 
-    <body>
-        <header>
-            <div class="container">
-                    <h1 id="pageTitle">Joshua Arcega</h1>
-                <nav>
-                    <a href="index.html"><p class="nav-link">About</p></a>
-                    <a href="portfolio.html"><p class="nav-link" id="bordered">Portfolio</p></a>
-                    <a href="contact.html"><p class="nav-link">Contact</p></a>
-                </nav>
+<body>
+
+<!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="sticky-nav">
+        <div class="container">
+            <a class="navbar-brand" name="home" href="#home"><img class="logo img-fluid" src="assets/images/ja-logo-cropped.png" alt="Logo Image"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
             </div>
-        </header>
-        <main>
+        </div>
+    </nav>    
+
+<!--Main Landing Page, full screen w/background color or image-->
+<div class="container-fluid h100" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 offset-md-4 text-center" id="landing-div">
+                <h1 class="landing-font-lg">Hi, I'm Joshua Arcega</h1>
+                <h2 id="landing-font-md">I'm a web developer</h2>
+            </div>
+            <div class="col-sm-12 col-md-8 offset-md-4 text-center mt-5">
+                <a href="#portfolio"><button type="button" class="btn btn-lg btn-outline-light landing-btn">My Work</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="portfolio">
+    <div class="container">
+        <div class="text-center mb-5" id="banner-dark-grey">
+            <a name="portfolio"><h1 class="landing-font-lg">Portfolio</h1></a>
+        </div>
             
-            <div class="containerMain">
-                <h1 class="mainTitle">About Me</h1>
-                
-                <img id="mainImage" src="https://picsum.photos/300/200/?image=1062" alt="Placeholder Headshot">
-
-                <div>
-                    <p>
-                        My name is Joshua, and I'm twenty-five years old. I graduated from the University of Georgia in 2015, and began working on my own as a private music teacher. Music runs in my family, and is a lifelong hobby. I started piano and guitar as early in life as possible, and I carry it on through recording and playing in cover bands or at churches.
-                    </p>
+        <div class="card-columns">
+            <div class="card">
+                <img src="assets/images/hangman-cropped.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Word Guess Game</h5>
+                    <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
                 </div>
-                <div>
-                    <p>
-                        I first became interested in the tech industry after learning the basics of programming from my brother. Another friend offered to teach me simple web development in exchange for guitar lessons, and from there I decided to pursue work in the web development field. My goals include learning a full stack in web development, and gaining as much relevant work experience as possible with large, highly structured companies.
-                    </p>
-                </div>
-
-                <div>
-                    <p>
-                        My experience as a freelance guitar teacher taught me to run my work like a small business. I enjoyed structuring and improving my services to best meet my students' needs, and consistently relied on highly accessible technologies to provide that service. I believe that experience will make me a better developer as I learn to use my customer service skills and resourcefulness to meet employers' needs. I may also pursue freelance web development work in the future. Ultimately, I hope my skills in development will allow me to start my own business in the next 5-15 years. 
-                    </p>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
+                    <span class="portfolio-icons d-inline-block">
+                        <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
+                    </span>
                 </div>
             </div>
-        </main>
-        <footer>
-            <p>Copyright 2018, Joshua Arcega &copy;</p>
-        </footer>
-    </body>
 
+            <div class="card">
+                <img src="assets/images/knight-cropped.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SlapByte</h5>
+                    <p class="card-text">Choose a character and battle enemies to win. Uses jQuery to handle events, as well as JavaScript logic.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <a class="d-inline-block" href="https://jayrene1.github.io/unit-4-game/">Live Link</a>
+                    <span class="portfolio-icons d-inline-block">
+                        <a href="https://github.com/Jayrene1/unit-4-game/"><i class="fab fa-github"></i></a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/trivia-cropped.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Christmas Song Trivia</h5>
+                    <p class="card-text">Test your Christmas song knowledge with this 10 question quiz! Happy Holidays.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <a class="d-inline-block" href="https://jayrene1.github.io/TriviaGame/">Live Link</a>
+                    <span class="portfolio-icons d-inline-block">
+                        <a href="https://github.com/Jayrene1/TriviaGame/"><i class="fab fa-github"></i></a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Musical Gifs</h5>
+                    <p class="card-text">See how the GIPHY API can be used to find gifs, including Billboard's top 25 musical artists of 2018.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <a class="d-inline-block" href="https://jayrene1.github.io/GifTastic/">Live Link</a>
+                    <span class="portfolio-icons d-inline-block">
+                        <a href="https://github.com/Jayrene1/GifTastic/"><i class="fab fa-github"></i></a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/wkndr-cropped.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wkndr</h5>
+                    <p class="card-text">Auto-generate a weekend itinerary using the google places API.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <a class="d-inline-block" href="https://alexglovett.github.io/Wkndr/">Live Link</a>
+                    <span class="portfolio-icons d-inline-block">
+                        <a href="https://github.com/AlexGLovett/Wkndr/"><i class="fab fa-github"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid h100" id="contact">
+    <div class="container">
+        <div class="text-center mb-5" id="banner-grey">
+            <a name="contact"><h1 class="landing-font-lg">Contact</h1></a>
+        </div>
+            
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group col-sm-12 col-md-6 offset-md-3 text-light">
+                        <label for="nameInputForm">Your Name</label>
+                        <input type="text" class="form-control" id="nameInputForm" placeholder="John Smith">
+                    </div>
+
+                    <div class="form-group col-sm-12 col-md-6 offset-md-3 text-light">
+                        <label for="emailInputForm">Email address</label>
+                        <input type="email" class="form-control" id="emailInputForm" placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="form-group text-light col-sm-12 col-md-6 offset-md-3">
+                        <label for="messageInputForm">Your Message</label>
+                        <textarea class="form-control" id="messageInputForm" rows="9"></textarea>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button class="button btn-lg btn-outline-light landing-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>   
+</div>
+
+<footer class="bg-dark">
+    <div class="container d-flex w-100 align-items-center">
+            <span class="text-light">Copyright, Joshua Arcega &copy;</span>
+
+            <div class="d-inline-block ml-auto">
+                <span class="social-icons">
+                    <a href="https://github.com/Jayrene1"><i class="fab fa-github"></i></a>
+                </span>
+                                    
+                <span class="social-icons">
+                    <a href="https://stackoverflow.com/users/10369241/joshua-arcega"><i class="fab fa-stack-overflow"></i></a>
+                </span>
+
+                <span class="social-icons">
+                    <a href="https://www.linkedin.com/in/joshua-arcega-281496174/"><i class="fab fa-linkedin"></i></a>
+                </span>    
+
+                <span class="social-icons">
+                    <a href="https://www.instagram.com/joshua_rene/"><i class="fab fa-instagram"></i></a>
+                </span>    
+
+            </div>
+    </div>
+</footer>
+
+    <!--Bootstrap dependent scripts (jQuery unminified, Bootstrap Javascript, popper.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="assets/index.js"></script>
+</body>
 </html>

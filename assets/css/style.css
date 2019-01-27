@@ -1,167 +1,105 @@
-@charset "utf-8";
+@import url('fonts/horizon/stylesheet.css');
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    color: #000;
-    height: 100%;
-    background-image: url("../images/squairy_light_2x.png");
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #777777;
+#home {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bg-guitar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-p { 
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    line-height: 150%;
-    color: #777777;
+#portfolio {
+    background: linear-gradient( rgba(33, 33, 33, 1), rgba(52, 58,64, 1) );
 }
 
-a {
-    color: #777777;
+#contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/bg-notebook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -72px;
 }
 
-.nav-link:hover {
-    background-color: #777777;
-    color: #ffffff;
-    transition: 0.5s;
+.h100 {
+    height: 100vh;
 }
 
-.container {
-    width: 960px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.container-1 > a {
-    margin: 32px;
-}
-
-.portfolioImage {
-    opacity: 1;
-}
-
-.portfolioImage:hover {
-    opacity: 0.4;
-    transition: 0.5s;
-}
-
-
-header {
-    overflow: hidden;
-    background: #fff;
-    border: 2px solid #cccccc;
-}
-
-#pageTitle {
-    float: left;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 96px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 0 20px 0 20px;
-    margin: 0;
-}
-
-nav {
-    float: right;
-    text-align: center;
-    padding: 20px 0 20px 0;
-}
-
-.nav-link {
-    display: inline-block;
-    padding: 0 12px 0 12px;
-}
-
-#bordered {
-    border-left: 1px #cccccc solid;
-    border-right: 1px #cccccc solid;
-}
-
-main {
-    margin: 0;
-    overflow: auto;
-}
-
-.containerMain {
-    background-color: #ffffff;
-    float: center;
-    width: 912px;
-    height: 100%;
-    padding: 24px;
-    margin: 48px auto 144px auto;
-}
-
-.mainTitle {
-    color: #4aaaa5;
-    border-bottom: solid 2px  #dddddd;
-    padding-bottom: 20px;
-}
-
-#mainImage {
-    float: left;
-    margin-right: 24px;
-}
-
-button, input, select, textarea, label {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 100%;
-    color: #777777;
-}
-
-label {
-    display: block;
-    padding: 8px 0 8px 0;
-}
-
-input {
-    width: 900px;
-    padding: 8px 0px 8px 8px;
-}
-
-input:focus {
-    border: #777777 2px solid;
-}
-
-textarea {
-    vertical-align: top;
-    width: 906px;
-}
-
-#formSubmit {
-    margin-top: 24px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    width: auto;
-    padding: 12px 24px 12px 24px;
-    border: none;
-}
-
-footer {
+#sticky-nav {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    overflow: hidden;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
 }
 
-footer > p {
-    color: #ffffff;
+#sticky-nav.scrolled {
+    background-color: #212121 !important;
+    transition: background-color 500ms linear;
+    z-index: 999;
+  }
+
+h1, h2 {
+    font-family: horizonregular;
+}
+
+.landing-font-lg {
+    font-size: 9rem;
+    color: white;
+}
+
+#landing-font-md {
+    font-size: 6rem;
+    color: white;
+}
+#banner-dark-grey {
+    background-color: #212121;
+}
+
+#banner-grey {
+    background-color: #343a40;
+}
+
+#landing-div {
+    margin-top: 16rem;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.landing-btn {
+    border-radius: 0rem !important; 
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+.landing-btn:hover {
+    color: #343a40 !important;
+}
+
+p {
+    color: $secondary;
+}
+
+
+.logo {
+    height: 1.8rem;
+}
+
+.portfolio-icons {
+    font-size: 2em;
+    color: #343a40;
+}
+
+
+
+.social-icons {
+    font-size: 3rem;
+    color: white;
+    padding: 0 0.6rem 0 0.6rem;
+}
+
+.social-icons > a {
+    color: white;
 }
