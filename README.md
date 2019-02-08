@@ -1,2 +1,2 @@
-# Jayrene1.github.io
-Github: Pages User Site
+# Bootstrap-Portfolio
+Homework 2: Responsiveness Assignment (part 1)
