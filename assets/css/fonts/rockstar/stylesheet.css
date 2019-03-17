@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'rockstar';
+    src: url('Rockstaralt-Regular.woff2') format('woff2'),
+        url('Rockstaralt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

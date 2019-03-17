@@ -1,8 +1,13 @@
 @import url('fonts/horizon/stylesheet.css');
-
+@import url('fonts/rockstar/stylesheet.css');
+@import url('fonts/scriptyca/stylesheet.css');
 html {
     position: relative;
     min-height: 100%;
+}
+
+body {
+    font-family: Karla, Roboto !important;
 }
 
 #home {
@@ -39,22 +44,17 @@ html {
   }
 
 h1, h2 {
-    font-family: horizonregular;
+    font-family: Scriptyca;
 }
+
+
 
 .landing-font-lg {
-    font-size: 9rem;
+    font-size: 7.5vmax;
     color: white;
 }
 
-#landing-font-md {
-    font-size: 6rem;
-    color: white;
-}
 
-#landing-div {
-    margin-top: 16rem;
-}
 
 .container-fluid {
     padding-right: 0 !important;
