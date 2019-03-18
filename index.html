@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Font Awesome Icons link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    
+    <!--Animate.css library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 
@@ -62,19 +64,32 @@
             <a name="portfolio"><h1 class="landing-font-lg pt-3 pb-5">Portfolio</h1></a>
         </div>
             
-        <div class="card-columns h100">
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
+        <div class="card-columns h100" id="accordion">
+                
+            <div class="card bg-secondary text-light text-center">
+                <div class="card-header">
+                        <img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
+                        <h5 class="card-title mb-5">Word Guess Game</h5>
+                </div>
+                
                 <div class="card-body">
-                    <h5 class="card-title">Word Guess Game</h5>
-                    <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#portfolio-1" aria-expanded="false" aria-controls="portfolio-1">
+                                <i class="fas fa-angle-down"></i>
+                        </button>    
+        
                 </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
-                    </span>
-                </div>
+                <div class="collapse bg-secondary text-light" id="portfolio-1" data-parent="#accordion">
+                        <div class="card-body">
+                            <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
+                            <span class="portfolio-icons d-inline-block">
+                                <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
+                            </span>
+                        </div>
+                    </div>
+    
             </div>
 
             <div class="card bg-secondary text-light">
@@ -104,7 +119,7 @@
                     </span>
                 </div>
             </div>
-
+<!--
             <div class="card bg-secondary text-light">
                 <img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="GifTastic App Image">
                 <div class="card-body">
@@ -185,6 +200,7 @@
                     </span>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </div>
