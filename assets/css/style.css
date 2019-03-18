@@ -94,7 +94,7 @@ p {
     color: white;
 }
 
-.fa-angle-down {
+/*.fa-angle-down {
     color: white;
     font-size: 3rem;
     transition: transform 0.6s;
@@ -102,18 +102,20 @@ p {
 
 .flip {
     transform: rotate(-180deg);
-}
+}*/
 
-.card-header {
+.card-img-top {
     opacity: 1;
     display: block;
     width: 100%;
+    overflow: hidden;
     height: auto;
+    max-height: 245.78px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
 
-.card-header:hover img {
+.card:hover img {
     opacity: 0.3;
 }
 
@@ -124,7 +126,7 @@ p {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-
+    font-size: 2rem;
 }
 .hover {
     transition: .5s ease;
@@ -137,6 +139,6 @@ p {
     text-align: center;
 }
 
-.card-header:hover .hover {
+.card:hover .hover {
     opacity: 1;
 }

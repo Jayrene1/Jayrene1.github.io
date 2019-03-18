@@ -63,130 +63,241 @@
         <div class="text-center">
             <a name="portfolio"><h1 class="landing-font-lg pt-3 pb-5">Portfolio</h1></a>
         </div>
-            
+        <!--WORD GUESS GAME-->    
         <div class="card-group mt-5">
             <div class="card bg-secondary text-light text-center">
-                <img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
-                <div class="card-body">
-                    <h5 class="card-title mb-5">Word Guess Game</h5>
-                    <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/knight-cropped.png" class="card-img-top" alt="SlapByte App Image">
-                <div class="card-body">
-                    <h5 class="card-title">SlapByte</h5>
-                    <p class="card-text">Choose a character and battle enemies to win. Uses jQuery to handle events, as well as JavaScript logic.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://jayrene1.github.io/unit-4-game/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/unit-4-game/"><i class="fab fa-github"></i></a>
-                    </span>
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-word-guess-game"><img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
+                <h5 class="card-title hover">Word Guess Game</h5></a>
+                <div class="modal fade text-dark" id="modal-word-guess-game" tabindex="-1" role="dialog" aria-labelledby="WordGuessGameModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Word Guess Game</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/trivia-cropped.jpg" class="card-img-top" alt="Trivia Game App Image">
-                <div class="card-body">
-                    <h5 class="card-title">Christmas Song Trivia</h5>
-                    <p class="card-text">Test your Christmas song knowledge with this 10 question quiz! Happy Holidays.</p>
+            <!--SlAPBYTE GAME-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-slapbyte"><img src="assets/images/knight-cropped.png" class="card-img-top" alt="SlapByte App Image">
+                <h5 class="card-title hover">SlapByte</h5></a>
+                <div class="modal fade text-dark" id="modal-slapbyte" tabindex="-1" role="dialog" aria-labelledby="SlapByteModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">SlapByte</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Choose a character and battle enemies to win. Uses jQuery to handle events, as well as JavaScript logic.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://jayrene1.github.io/unit-4-game/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/unit-4-game/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://jayrene1.github.io/TriviaGame/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/TriviaGame/"><i class="fab fa-github"></i></a>
-                    </span>
+            </div>
+            <!--TRIVIA GAME-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-trivia"><img src="assets/images/trivia-cropped.jpg" class="card-img-top" alt="Trivia Game App Image">
+                <h5 class="card-title hover">Christmas Song Trivia</h5></a>
+                <div class="modal fade text-dark" id="modal-trivia" tabindex="-1" role="dialog" aria-labelledby="TriviaGameModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Christmas Song Trivia</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Test your Christmas song knowledge with this 10 question quiz! Happy Holidays.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://jayrene1.github.io/TriviaGame/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/TriviaGame/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <!--MUSICAL GIPHY-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-gifs"><img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="Musical Gifs App Image">
+                <h5 class="card-title hover">Musical Gifs</h5></a>
+                <div class="modal fade text-dark" id="modal-gifs" tabindex="-1" role="dialog" aria-labelledby="MusicalGifsModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Musical Gifs</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Access the GIPHY API to find gifs of Billboard's top 25 musical artists in 2018.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://jayrene1.github.io/GifTastic/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/GifTastic/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--WKNDR-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-wkndr"><img src="assets/images/wkndr-cropped.jpg" class="card-img-top" alt="Weekender App Image">
+                <h5 class="card-title hover">Wkndr</h5></a>
+                <div class="modal fade text-dark" id="modal-wkndr" tabindex="-1" role="dialog" aria-labelledby="WkndrModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Wkndr</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Auto-generate a weekend itinerary using the google places API.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://jayrene1.github.io/Wkndr/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/Wkndr/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--LIRI NODE CLI-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-liri"><img src="assets/images/liri.png" class="card-img-top" alt="Liri Node App Image">
+                <h5 class="card-title hover">LIRI Node App</h5></a>
+                <div class="modal fade text-dark" id="modal-liri" tabindex="-1" role="dialog" aria-labelledby="LiriModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Liri Node App</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Search for concerts, songs, or movies using the command line in this node.js-powered app.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/liri-node-app/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="card-group">
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="GifTastic App Image">
-                <div class="card-body">
-                    <h5 class="card-title">Musical Gifs</h5>
-                    <p class="card-text">See how the GIPHY API can be used to find gifs, including Billboard's top 25 musical artists of 2018.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://jayrene1.github.io/GifTastic/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/GifTastic/"><i class="fab fa-github"></i></a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/wkndr-cropped.jpg" class="card-img-top" alt="Weekender App Image">
-                <div class="card-body">
-                    <h5 class="card-title">Wkndr</h5>
-                    <p class="card-text">Auto-generate a weekend itinerary using the google places API.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://alexglovett.github.io/Wkndr/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/AlexGLovett/Wkndr/"><i class="fab fa-github"></i></a>
-                    </span>
+            <!--WORD GUESS CLI-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-word-guess-cli"><img src="assets/images/cli-word-guess.png" class="card-img-top" alt="Liri Word Guess App Image">
+                <h5 class="card-title hover">Command Line Word Guess</h5></a>
+                <div class="modal fade text-dark" id="modal-word-guess-cli" tabindex="-1" role="dialog" aria-labelledby="WordGuessCLIModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Command Line Word Guess</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Play a hangman-like word guess game, this time on the command line!</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/CLI-Word-Guess/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/liri.png" class="card-img-top" alt="Liri Node App Image">
-                <div class="card-body">
-                    <h5 class="card-title">LIRI Node App</h5>
-                    <p class="card-text">Search for concerts, songs, or movies using the command line in this node.js-powered app.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-end align-items-center">
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/liri-node-app"><i class="fab fa-github"></i></a>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="card-group">
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/cli-word-guess.png" class="card-img-top" alt="CLI Word Guess App Image">
-                <div class="card-body">
-                    <h5 class="card-title">Command Line Word Guess</h5>
-                    <p class="card-text">Play a hangman-like word guess game, this time on the command line!</p>
-                </div>
-                <div class="card-footer d-flex justify-content-end align-items-center">
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/CLI-Word-Guess"><i class="fab fa-github"></i></a>
-                    </span>
+            <!--SQL INVENTORY CLI-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-sql-inventory"><img src="assets/images/cli-inventory-database.png" class="card-img-top" alt="SQL Inventory CLI App Image">
+                <h5 class="card-title hover">Command Line mySQL Inventory</h5></a>
+                <div class="modal fade text-dark" id="modal-sql-inventory" tabindex="-1" role="dialog" aria-labelledby="SQLInventoryCLIModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Command Line mySQL Inventory</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Buy or stock a mock guitar store's inventory using a MySQL database and node.js.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/cli-inventory-database/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/cli-inventory-database.png" class="card-img-top" alt="CLI Inventory Database App Image">
-                <div class="card-body">
-                    <h5 class="card-title">Command Line Inventory w/Database</h5>
-                    <p class="card-text">Buy or stock a mock guitar store's inventory using a MySQL database and node.js.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-end align-items-center">
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/cli-inventory-database"><i class="fab fa-github"></i></a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="card bg-secondary text-light">
-                <img src="assets/images/likeability.png" class="card-img-top" alt="Likeability App Image">
-                <div class="card-body">
-                    <h5 class="card-title">Likeability - Friend Finder</h5>
-                    <p class="card-text">Enter your answers, Emoji style, and find a friend that has similar likes/dislikes.</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <a class="d-inline-block" href="https://likeability-jayrene1.herokuapp.com/">Live Link</a>
-                    <span class="portfolio-icons d-inline-block">
-                        <a href="https://github.com/Jayrene1/Likeability"><i class="fab fa-github"></i></a>
-                    </span>
+            <!--Likeability-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-likeability"><img src="assets/images/likeability.png" class="card-img-top" alt="Likeability App Image">
+                <h5 class="card-title hover">Likeability - Friend Finder</h5></a>
+                <div class="modal fade text-dark" id="modal-likeability" tabindex="-1" role="dialog" aria-labelledby="LikeabilityModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Likeability - Friend Finder</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Enter your answers, Emoji style, and find a friend that has similar likes/dislikes.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://likeability-jayrene1.herokuapp.com/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/Likeability"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

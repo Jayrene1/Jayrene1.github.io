@@ -7,11 +7,11 @@ $(document).ready(function() {
         });
     });
 
-    $('.collapse').collapse('hide');
+    /*$('.collapse').collapse('hide');
 
     $('.fa-angle-down').on("click", function() {
         $('.fa-angle-down').toggleClass('flip');
-    });
+    });*/
 
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
