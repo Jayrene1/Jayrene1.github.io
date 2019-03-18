@@ -18,6 +18,8 @@ body {
 
 #portfolio {
     background: linear-gradient( rgba(33, 33, 33, 1), rgba(52, 58,64, 1) );
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 #contact {
@@ -25,6 +27,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: -72px;
+    padding-top: 50px;
+    padding-bottom: 146px;
 }
 
 .h100 {

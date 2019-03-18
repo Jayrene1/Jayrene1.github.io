@@ -59,37 +59,24 @@
 </div>
 
 <div class="container-fluid" id="portfolio">
-    <div class="container">
+    <div class="container pb-5">
         <div class="text-center">
             <a name="portfolio"><h1 class="landing-font-lg pt-3 pb-5">Portfolio</h1></a>
         </div>
             
-        <div class="card-columns h100" id="accordion">
-                
+        <div class="card-group mt-5">
             <div class="card bg-secondary text-light text-center">
-                <div class="card-header">
-                        <img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
-                        <h5 class="card-title mb-5">Word Guess Game</h5>
-                </div>
-                
+                <img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
                 <div class="card-body">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#portfolio-1" aria-expanded="false" aria-controls="portfolio-1">
-                                <i class="fas fa-angle-down"></i>
-                        </button>    
-        
+                    <h5 class="card-title mb-5">Word Guess Game</h5>
+                    <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
                 </div>
-                <div class="collapse bg-secondary text-light" id="portfolio-1" data-parent="#accordion">
-                        <div class="card-body">
-                            <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between align-items-center">
-                            <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
-                            <span class="portfolio-icons d-inline-block">
-                                <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
-                            </span>
-                        </div>
-                    </div>
-    
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
+                    <span class="portfolio-icons d-inline-block">
+                        <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
+                    </span>
+                </div>
             </div>
 
             <div class="card bg-secondary text-light">
@@ -119,7 +106,8 @@
                     </span>
                 </div>
             </div>
-<!--
+        </div>
+        <div class="card-group">
             <div class="card bg-secondary text-light">
                 <img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="GifTastic App Image">
                 <div class="card-body">
@@ -160,7 +148,8 @@
                     </span>
                 </div>
             </div>
-
+        </div>
+        <div class="card-group">
             <div class="card bg-secondary text-light">
                 <img src="assets/images/cli-word-guess.png" class="card-img-top" alt="CLI Word Guess App Image">
                 <div class="card-body">
@@ -200,7 +189,6 @@
                     </span>
                 </div>
             </div>
-            -->
         </div>
     </div>
 </div>
@@ -211,8 +199,8 @@
             <a name="contact"><h1 class="landing-font-lg pt-3 pb-5">Contact</h1></a>
         </div>
             
-        <div class="row h100">
-            <div class="col-12">
+        <div class="row">
+            <div class="col-sm-12">
                 <form>
                     <div class="form-group col-sm-12 col-md-6 offset-md-3 text-light">
                         <label for="nameInputForm">Your Name</label>
@@ -239,27 +227,26 @@
 </div>
 
 <footer class="bg-dark">
-    <div class="container d-flex w-100 align-items-center">
-            <span class="text-light">Copyright, Joshua Arcega &copy;</span>
+    <div class="container d-flex w-100 align-items-center justify-content-between">
+        <span class="text-light text-muted">Joshua Arcega &copy; 2019</span>
 
-            <div class="d-inline-block ml-auto">
-                <span class="social-icons">
-                    <a href="https://github.com/Jayrene1"><i class="fab fa-github"></i></a>
-                </span>
-                                    
-                <span class="social-icons">
-                    <a href="https://stackoverflow.com/users/10369241/joshua-arcega"><i class="fab fa-stack-overflow"></i></a>
-                </span>
+        <div class="d-inline-block d-flex flex-sm-wrap">
+            <span class="social-icons order-0">
+                <a href="https://github.com/Jayrene1"><i class="fab fa-github"></i></a>
+            </span>
 
-                <span class="social-icons">
-                    <a href="https://www.linkedin.com/in/joshua-arcega-281496174/"><i class="fab fa-linkedin"></i></a>
-                </span>    
+            <span class="social-icons order-1">
+                <a href="https://www.linkedin.com/in/joshua-arcega-281496174/"><i class="fab fa-linkedin"></i></a>
+            </span>    
 
-                <span class="social-icons">
-                    <a href="https://www.instagram.com/joshua_rene/"><i class="fab fa-instagram"></i></a>
-                </span>    
+            <span class="social-icons order-2">
+                <a href="https://www.instagram.com/joshua_rene/"><i class="fab fa-instagram"></i></a>
+            </span>  
 
-            </div>
+            <span class="social-icons order-3">
+                <a href="https://stackoverflow.com/users/10369241/joshua-arcega"><i class="fab fa-stack-overflow"></i></a>
+            </span>
+        </div>
     </div>
 </footer>
 
