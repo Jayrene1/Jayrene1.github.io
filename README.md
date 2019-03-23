@@ -1,2 +1,3 @@
 # Bootstrap-Portfolio
-Homework 2: Responsiveness Assignment (part 1)
+
+This is a live Github Pages personal portfolio site for Joshua Arcega.
