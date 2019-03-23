@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Font Awesome Icons link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <!--Animate.css library-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
@@ -63,33 +61,86 @@
         <div class="text-center">
             <a name="portfolio"><h1 class="landing-font-lg pt-3 pb-5">Portfolio</h1></a>
         </div>
-        <!--WORD GUESS GAME-->    
-        <div class="card-group mt-5">
+        <div class="card-group">
+            <!--WKNDR-->
             <div class="card bg-secondary text-light text-center">
-                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-word-guess-game"><img src="assets/images/hangman-cropped.png" class="card-img-top" alt="Word Guess App Image">
-                <h5 class="card-title hover">Word Guess Game</h5></a>
-                <div class="modal fade text-dark" id="modal-word-guess-game" tabindex="-1" role="dialog" aria-labelledby="WordGuessGameModal" aria-hidden="true">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-wkndr"><img src="assets/images/wkndr-cropped.jpg" class="card-img-top" alt="Weekender App Image">
+                <h5 class="card-title hover">Wkndr</h5></a>
+                <div class="modal fade text-dark" id="modal-wkndr" tabindex="-1" role="dialog" aria-labelledby="WkndrModal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title">Word Guess Game</h5>
+                                <h5 class="modal-title">Wkndr</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <p class="card-text">Type letters to guess the game's hidden word. Powered By vanilla Javascript.</p>
+                                <p class="card-text">Auto-generate a weekend itinerary using the google places API.</p>
                             </div>
                             <div class="modal-footer d-flex justify-content-between align-items-center">
-                                <a class="d-inline-block" href="https://jayrene1.github.io/Word-Guess-Game/">Live Link</a>
+                                <a class="d-inline-block" href="https://jayrene1.github.io/Wkndr/">Live Link</a>
                                 <span class="portfolio-icons d-inline-block">
-                                    <a href="https://github.com/Jayrene1/Word-Guess-Game/"><i class="fab fa-github"></i></a>
+                                    <a href="https://github.com/Jayrene1/Wkndr/"><i class="fab fa-github"></i></a>
                                 </span>
                             </div>                
                         </div>
                     </div>
                 </div>
             </div>
+            <!--LIRI NODE CLI-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-liri"><img src="assets/images/liri.png" class="card-img-top" alt="Liri Node App Image">
+                <h5 class="card-title hover">LIRI Node App</h5></a>
+                <div class="modal fade text-dark" id="modal-liri" tabindex="-1" role="dialog" aria-labelledby="LiriModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Liri Node App</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Search for concerts, songs, or movies using the command line in this node.js-powered app.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/liri-node-app/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--MUSICAL GIPHY-->
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-gifs"><img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="Musical Gifs App Image">
+                <h5 class="card-title hover">Musical Gifs</h5></a>
+                <div class="modal fade text-dark" id="modal-gifs" tabindex="-1" role="dialog" aria-labelledby="MusicalGifsModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Musical Gifs</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Access the GIPHY API to find gifs of Billboard's top 25 musical artists in 2018.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://jayrene1.github.io/GifTastic/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/GifTastic/"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
             <!--SlAPBYTE GAME-->
             <div class="card bg-secondary text-light text-center">
                 <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-slapbyte"><img src="assets/images/knight-cropped.png" class="card-img-top" alt="SlapByte App Image">
@@ -142,88 +193,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="card-group">
-            <!--MUSICAL GIPHY-->
-            <div class="card bg-secondary text-light text-center">
-                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-gifs"><img src="assets/images/gifs-cropped.jpg" class="card-img-top" alt="Musical Gifs App Image">
-                <h5 class="card-title hover">Musical Gifs</h5></a>
-                <div class="modal fade text-dark" id="modal-gifs" tabindex="-1" role="dialog" aria-labelledby="MusicalGifsModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Musical Gifs</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p class="card-text">Access the GIPHY API to find gifs of Billboard's top 25 musical artists in 2018.</p>
-                            </div>
-                            <div class="modal-footer d-flex justify-content-between align-items-center">
-                                <a class="d-inline-block" href="https://jayrene1.github.io/GifTastic/">Live Link</a>
-                                <span class="portfolio-icons d-inline-block">
-                                    <a href="https://github.com/Jayrene1/GifTastic/"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>                
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--WKNDR-->
-            <div class="card bg-secondary text-light text-center">
-                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-wkndr"><img src="assets/images/wkndr-cropped.jpg" class="card-img-top" alt="Weekender App Image">
-                <h5 class="card-title hover">Wkndr</h5></a>
-                <div class="modal fade text-dark" id="modal-wkndr" tabindex="-1" role="dialog" aria-labelledby="WkndrModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Wkndr</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p class="card-text">Auto-generate a weekend itinerary using the google places API.</p>
-                            </div>
-                            <div class="modal-footer d-flex justify-content-between align-items-center">
-                                <a class="d-inline-block" href="https://jayrene1.github.io/Wkndr/">Live Link</a>
-                                <span class="portfolio-icons d-inline-block">
-                                    <a href="https://github.com/Jayrene1/Wkndr/"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>                
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--LIRI NODE CLI-->
-            <div class="card bg-secondary text-light text-center">
-                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-liri"><img src="assets/images/liri.png" class="card-img-top" alt="Liri Node App Image">
-                <h5 class="card-title hover">LIRI Node App</h5></a>
-                <div class="modal fade text-dark" id="modal-liri" tabindex="-1" role="dialog" aria-labelledby="LiriModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Liri Node App</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p class="card-text">Search for concerts, songs, or movies using the command line in this node.js-powered app.</p>
-                            </div>
-                            <div class="modal-footer d-flex justify-content-between align-items-center">
-                                <span class="portfolio-icons d-inline-block">
-                                    <a href="https://github.com/Jayrene1/liri-node-app/"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>                
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-group">
             <!--WORD GUESS CLI-->
             <div class="card bg-secondary text-light text-center">
                 <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-word-guess-cli"><img src="assets/images/cli-word-guess.png" class="card-img-top" alt="Liri Word Guess App Image">
@@ -249,6 +218,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="card-group">
             <!--SQL INVENTORY CLI-->
             <div class="card bg-secondary text-light text-center">
                 <a class="bg-secondary" type="button" data-toggle="modal" data-target="#modal-sql-inventory"><img src="assets/images/cli-inventory-database.png" class="card-img-top" alt="SQL Inventory CLI App Image">
@@ -294,6 +265,32 @@
                                 <a class="d-inline-block" href="https://likeability-jayrene1.herokuapp.com/">Live Link</a>
                                 <span class="portfolio-icons d-inline-block">
                                     <a href="https://github.com/Jayrene1/Likeability"><i class="fab fa-github"></i></a>
+                                </span>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--DASH-->    
+            <div class="card bg-secondary text-light text-center">
+                <a class="bg-secondary" type="button" data-toggle="modal" data-target="#dash-app"><img src="assets/images/dash-cropped.png" class="card-img-top" alt="Dash Dashboard App Image">
+                <h5 class="card-title hover">Dash - Dashboard Generator</h5></a>
+                <div class="modal fade text-dark" id="dash-app" tabindex="-1" role="dialog" aria-labelledby="DashAppModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Dash - Dashboard Generator</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Upload CSV files and create custom graphs from of your data, which can be displayed in a single dashboard.</p>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between align-items-center">
+                                <a class="d-inline-block" href="https://blooming-reef-27543.herokuapp.com/">Live Link</a>
+                                <span class="portfolio-icons d-inline-block">
+                                    <a href="https://github.com/Jayrene1/DASH"><i class="fab fa-github"></i></a>
                                 </span>
                             </div>                
                         </div>
