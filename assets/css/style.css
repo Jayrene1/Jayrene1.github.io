@@ -4,14 +4,14 @@ html {
     min-height: 100%;
 }
 
-body {
-    font-family: Karla, Roboto !important;
-}
-
 #home {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bg-guitar.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#about {
+    padding: 5vh 0 0 0;
 }
 
 #portfolio {
@@ -24,8 +24,8 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/bg-notebook.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: -72px;
     padding-top: 5vh;
+    padding-bottom: 3rem;
     min-height: 100vh;
 }
 
@@ -37,6 +37,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99999;
 }
 
 #sticky-nav.scrolled {
@@ -75,12 +76,12 @@ h1, h2 {
     color: #343a40 !important;
 }
 
-p {
-    color: $secondary;
-}
-
 .logo {
     height: 1.8rem;
+}
+
+#headshot {
+    height: inherit;
 }
 
 .portfolio-icons {
